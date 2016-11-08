@@ -1,0 +1,9 @@
+[08-Nov-2016 12:00:02 America/New_York] PHP Notice:  Undefined variable: servername in /home/mackiega/public_html/api.nerdthings.ga/Politics_Go/Jobs/cron_20Min.php on line 29
+[08-Nov-2016 12:00:02 America/New_York] PHP Notice:  Undefined variable: username in /home/mackiega/public_html/api.nerdthings.ga/Politics_Go/Jobs/cron_20Min.php on line 29
+[08-Nov-2016 12:00:02 America/New_York] PHP Notice:  Undefined variable: password in /home/mackiega/public_html/api.nerdthings.ga/Politics_Go/Jobs/cron_20Min.php on line 29
+[08-Nov-2016 12:00:02 America/New_York] PHP Notice:  Undefined variable: dbname in /home/mackiega/public_html/api.nerdthings.ga/Politics_Go/Jobs/cron_20Min.php on line 29
+[08-Nov-2016 12:00:02 America/New_York] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/mackiega/public_html/api.nerdthings.ga/Politics_Go/Jobs/cron_20Min.php on line 29
+[08-Nov-2016 12:00:02 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mackiega/public_html/api.nerdthings.ga/Politics_Go/Jobs/cron_20Min.php on line 31
+[08-Nov-2016 12:00:02 America/New_York] PHP Notice:  Trying to get property of non-object in /home/mackiega/public_html/api.nerdthings.ga/Politics_Go/Jobs/cron_20Min.php on line 34
+[08-Nov-2016 12:00:02 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mackiega/public_html/api.nerdthings.ga/Politics_Go/Jobs/cron_20Min.php on line 67
+[08-Nov-2016 12:00:02 America/New_York] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mackiega/public_html/api.nerdthings.ga/Politics_Go/Jobs/cron_20Min.php on line 72
