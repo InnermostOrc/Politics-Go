@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="Politics_Go.Pages.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Politics_Go"
+    xmlns:converters="using:Politics_Go.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maps="using:Windows.UI.Xaml.Controls.Maps"
+    xmlns:controls="using:Template10.Controls">
+
+    <Grid Background="PeachPuff">
+        <Grid>
+            <Grid Margin="0,50,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="Log into you're Politics Go Account" HorizontalAlignment="Center"/>
+                <TextBox Grid.Row="1" HorizontalAlignment="Stretch" PlaceholderText="Username" Padding="5" x:Name="UsernameBox" KeyDown="UsernameBox_KeyDown"/>
+                <PasswordBox Grid.Row="2" HorizontalAlignment="Stretch" PlaceholderText="Password" Padding="5" x:Name="PasswordBox" KeyDown="PasswordBox_KeyDown"/>
+                <Button Grid.Row="3" Content="Login" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Login" Padding="5"/>
+            </Grid>
+        </Grid>
+        <ProgressBar IsIndeterminate="True" x:Name="Loader" Visibility="Collapsed"/>
+    </Grid>
+</Page>
